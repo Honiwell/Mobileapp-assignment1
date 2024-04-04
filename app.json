@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/mygame.png",
+      "image": "./assets/Mygame.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -33,6 +33,14 @@
     "plugins": [
       "expo-router"
     ],
-    "scheme": "router-demo"
+    "scheme": "router-demo",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "76f2e5c5-b225-49f0-8c9c-e06bf2e8bc3f"
+      }
+    }
   }
 }
